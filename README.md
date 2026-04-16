@@ -7,3 +7,6 @@
   <li> <code> cd task-list-html-css </code>, щоб перейти в папку task-list-html-css; </li>
   <li> <code> start index.html </code>, щоб переглянути вебзастосування у браузері. </li>
 </ol>
+<p> Проєкт використовує GitHub Actions для автоматичного розгортання оновленої версії вебзастосування на Github Pages. <br>
+Кожен 'push' у гілку 'main' ініціює робочий процес, який оновлює версію застосунку на Github Pages. <br> 
+Конфігурація знаходиться у файлі: `.github/workflows/deploy.yml` .</p>
